@@ -4,7 +4,8 @@ public class Sample {
 		// TODO 自動生成されたメソッド・スタブ
 		int num = 10;
 		System.out.println("数値:" + num);
-		String str =System.Console().readLine();
+		java.util.Scanner str = new java.util.Scanner(System.in);
+		String str2 = str.nextLine();
 	}
 
 }
