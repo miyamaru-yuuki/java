@@ -5,11 +5,12 @@ public class Sample {
 		System.out.println("数を入力してください");
 		java.util.Scanner sc = new java.util.Scanner(System.in);
 		String str = sc.nextLine();
-		String str2 = sc.nextLine();
 		int num = Integer.parseInt(str);
-		int num2 = Integer.parseInt(str2);
-		int num3 = num + num2;
-		System.out.println("数値:" + num3);
-	}
 
+		if(num == 10) {
+			System.out.println("OK");
+		}else {
+			System.out.println("NG");
+		}
+	}
 }
