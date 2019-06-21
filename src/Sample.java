@@ -4,9 +4,8 @@ public class Sample {
 		// TODO 自動生成されたメソッド・スタブ
 		System.out.println("数を入力してください");
 		java.util.Scanner sc = new java.util.Scanner(System.in);
-		java.util.Scanner sc2 = new java.util.Scanner(System.in);
 		String str = sc.nextLine();
-		String str2 = sc2.nextLine();
+		String str2 = sc.nextLine();
 		int num = Integer.parseInt(str);
 		int num2 = Integer.parseInt(str2);
 		int num3 = num + num2;
