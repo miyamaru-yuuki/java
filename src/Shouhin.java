@@ -1,10 +1,17 @@
 
 public class Shouhin {
-	public int sid;
-	public String sname;
-	public int tanka;
+	private int sid;
+	private String sname;
+	private int tanka;
 
 	void show(){
 	      System.out.println(sname);
+	}
+
+	String getSname() {
+		return sname;
+	}
+	void setSname(String n) {
+		sname = n;
 	}
 }
