@@ -1,5 +1,5 @@
 public class Sample {
-	static void test(int n){
+	static int test(int n){
 		n = n * 2;
 		return n;
         }
