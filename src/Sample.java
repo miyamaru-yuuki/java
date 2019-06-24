@@ -1,10 +1,11 @@
 public class Sample {
 	static void test(int n){
 		n = n * 2;
-        System.out.println(n);
+		return n;
         }
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		test(10);
+		int ret = test(10);
+		System.out.println(ret);
 	}
 }
