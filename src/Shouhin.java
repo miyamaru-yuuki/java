@@ -4,6 +4,12 @@ public class Shouhin {
 	private String sname;
 	private int tanka;
 
+	Shouhin(int c1,String c2,int c3){
+	    sid = c1;
+	    sname = c2;
+	    tanka = c3;
+	}
+
 	void show(){
 	      System.out.println(sname);
 	}
