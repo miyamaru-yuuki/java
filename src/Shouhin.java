@@ -25,13 +25,13 @@ public class Shouhin {
 	int getTanka() {
 		return tanka;
 	}
-	void setSid(int n) {
-		sid = n;
+	void setSid(int sid) {
+		this.sid = sid;
 	}
-	void setSname(String n) {
-		sname = n;
+	void setSname(String sname) {
+		this.sname = sname;
 	}
-	void setTanka(int n) {
-		tanka = n;
+	void setTanka(int tanka) {
+		this.tanka = tanka;
 	}
 }
