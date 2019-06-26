@@ -4,10 +4,10 @@ public class Shouhin {
 	private String sname;
 	private int tanka;
 
-	Shouhin(int initsid,String initsname,int inittanka){
-	    this.sid = initsid;
-	    this.sname = initsname;
-	    this.tanka = inittanka;
+	Shouhin(int sid,String sname,int tanka){
+	    this.sid = sid;
+	    this.sname = sname;
+	    this.tanka = tanka;
 	}
 
 	void show(){
