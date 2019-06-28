@@ -4,34 +4,38 @@ public class Shouhin {
 	private String sname;
 	private int tanka;
 
-	Shouhin(int sid,String sname,int tanka){
-	    this.sid = sid;
-	    this.sname = sname;
-	    this.tanka = tanka;
+	public Shouhin(int sid, String sname, int tanka) {
+		super();
+		this.sid = sid;
+		this.sname = sname;
+		this.tanka = tanka;
+	}
+
+	public int getSid() {
+		return sid;
+	}
+
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+
+	public String getSname() {
+		return sname;
+	}
+
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+
+	public int getTanka() {
+		return tanka;
+	}
+
+	public void setTanka(int tanka) {
+		this.tanka = tanka;
 	}
 
 	void show(){
 	      System.out.println(sname);
-	}
-
-	int getSid() {
-		return sid;
-	}
-
-	String getSname() {
-		return sname;
-	}
-
-	int getTanka() {
-		return tanka;
-	}
-	void setSid(int sid) {
-		this.sid = sid;
-	}
-	void setSname(String sname) {
-		this.sname = sname;
-	}
-	void setTanka(int tanka) {
-		this.tanka = tanka;
 	}
 }
