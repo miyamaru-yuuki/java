@@ -2,11 +2,13 @@
 public class Uriage {
 	private int uid;
 	private int kosu;
+	private Shouhin shouhin;
 
-	public Uriage(int uid, int kosu) {
+	public Uriage(int uid, int kosu, Shouhin shouhin) {
 		super();
 		this.uid = uid;
 		this.kosu = kosu;
+		this.shouhin = shouhin;
 	}
 
 	public int getUid() {
@@ -28,5 +30,6 @@ public class Uriage {
 	void show(){
 		System.out.println(uid);
 		System.out.println(kosu);
+		System.out.println(shouhin.getSname());
 	}
 }
