@@ -31,5 +31,6 @@ public class Uriage {
 		System.out.println(uid);
 		System.out.println(kosu);
 		System.out.println(shouhin.getSname());
+		System.out.println(kosu * shouhin.getTanka());
 	}
 }
