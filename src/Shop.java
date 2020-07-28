@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Shop {
 	private ArrayList<Shouhin> list;
-	public Shop(ArrayList<Shouhin> list) {
+	public Shop() {
 		super();
-		this.list = list;
+		this.list = new ArrayList<Shouhin>();
 	}
 	void add(Shouhin s) {
 		this.list.add(s);
