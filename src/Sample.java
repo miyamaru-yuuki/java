@@ -1,12 +1,19 @@
+import java.util.ArrayList;
+
 public class Sample {
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		Shouhin s = new Shouhin(1,"りんご",300);
-//		System.out.println(s.getSid());
-//		System.out.println(s.getSname());
-//		System.out.println(s.getTanka());
+		Shouhin s1 = new Shouhin(1,"りんご",300);
+		Shouhin s2 = new Shouhin(2,"みかん",200);
+		Shouhin s3 = new Shouhin(3,"ぶどう",500);
 
-		Uriage u = new Uriage(1,5,s);
-		u.show();
+		ArrayList<Shouhin> list = new ArrayList<Shouhin>();
+		list.add(s1);
+		list.add(s2);
+		list.add(s3);
+		for(Shouhin s : list){
+	        s.show();
+		}
+//		Uriage u = new Uriage(1,5,s);
+//		u.show();
 	}
 }
