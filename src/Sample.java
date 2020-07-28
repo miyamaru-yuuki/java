@@ -17,6 +17,9 @@ public class Sample {
 //		Uriage u = new Uriage(1,5,s);
 //		u.show();
 		Shop sh1 = new Shop();
+		sh1.add(s1);
+		sh1.add(s2);
+		sh1.add(s3);
 		sh1.add(s4);
 		sh1.show();
 		System.out.println(sh1.goukei());
