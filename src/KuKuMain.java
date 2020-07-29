@@ -1,11 +1,13 @@
+import java.util.ArrayList;
+
 public class KuKuMain {
 	public static void main(String[] args) {
 		int correctCount = 0;
-//		KuKuMondai mArray[];
-//		mArray = new KuKuMondai[5];
-//		ArrayList<KuKuMondai> list = new ArrayList<KuKuMondai>();
+		ArrayList<KuKuMondai> list = new ArrayList<KuKuMondai>();
 		for (int count = 1; count <= 5; count++){
-			KuKuMondai m = new KuKuMondai();
+			list.add(new KuKuMondai());
+		}
+		for(KuKuMondai m : list){
 			m.show();
 			String kotaestr = new java.util.Scanner(System.in).nextLine();
 			int kotae = Integer.parseInt(kotaestr);
