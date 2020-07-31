@@ -1,8 +1,8 @@
 
 public class Shouhin {
-	private int sid;
-	private String sname;
-	private int tanka;
+	public int sid;
+	public String sname;
+	public int tanka;
 
 	public Shouhin() {
 		System.out.println("Shouhin()");

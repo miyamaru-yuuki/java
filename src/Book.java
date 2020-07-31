@@ -5,6 +5,14 @@ class Book extends Shouhin{
 		System.out.println("Book()");
 	}
 
+	public Book(int sid, String sname, int tanka,String author) {
+		System.out.println("Book(int sid, String sname, int tanka,String author)");
+		public int sid = sid;
+		public String sname = sname;
+		public int tanka = tanka;
+		this.author = author;
+	}
+
 	public void setAuthor(String author) {
 		this.author = author;
 	}
