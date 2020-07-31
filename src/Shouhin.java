@@ -4,6 +4,10 @@ public class Shouhin {
 	private String sname;
 	private int tanka;
 
+	public Shouhin() {
+		super();
+	}
+
 	public Shouhin(int sid, String sname, int tanka) {
 		super();
 		this.sid = sid;
