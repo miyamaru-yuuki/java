@@ -7,9 +7,9 @@ class Book extends Shouhin{
 
 	public Book(int sid, String sname, int tanka,String author) {
 		System.out.println("Book(int sid, String sname, int tanka,String author)");
-		public int sid = sid;
-		public String sname = sname;
-		public int tanka = tanka;
+		this.sid = sid;
+		this.sname = sname;
+		this.tanka = tanka;
 		this.author = author;
 	}
 
