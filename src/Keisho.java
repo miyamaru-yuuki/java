@@ -5,5 +5,8 @@ public class Keisho {
 		s.setSname("もも");
 		s.setTanka(300);
 		s.show();
+		
+		Book b = new Book();
+		b.showAuthor();
 	}
 }
