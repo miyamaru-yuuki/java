@@ -5,11 +5,9 @@ public class Shouhin {
 	private int tanka;
 
 	public Shouhin() {
-		super();
 	}
 
 	public Shouhin(int sid, String sname, int tanka) {
-		super();
 		this.sid = sid;
 		this.sname = sname;
 		this.tanka = tanka;
