@@ -2,6 +2,7 @@ class Book extends Shouhin{
 	private String author;
 
 	public Book() {
+		System.out.println("Book()");
 	}
 
 	public void setAuthor(String author) {

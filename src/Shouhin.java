@@ -5,9 +5,11 @@ public class Shouhin {
 	private int tanka;
 
 	public Shouhin() {
+		System.out.println("Shouhin()");
 	}
 
 	public Shouhin(int sid, String sname, int tanka) {
+		System.out.println("Shouhin(int sid, String sname, int tanka)");
 		this.sid = sid;
 		this.sname = sname;
 		this.tanka = tanka;
