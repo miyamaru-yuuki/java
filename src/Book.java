@@ -1,4 +1,7 @@
 class Book extends Shouhin{
+	private int sid;
+	private String sname;
+	private int tanka;
 	private String author;
 
 	public Book() {
