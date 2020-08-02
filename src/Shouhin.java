@@ -4,9 +4,9 @@ public class Shouhin {
 	private String sname;
 	private int tanka;
 
-	public Shouhin() {
-		System.out.println("Shouhin()");
-	}
+//	public Shouhin() {
+//		System.out.println("Shouhin()");
+//	}
 
 	public Shouhin(int sid, String sname, int tanka) {
 		System.out.println("Shouhin(int sid, String sname, int tanka)");

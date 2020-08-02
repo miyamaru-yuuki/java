@@ -1,9 +1,9 @@
 class Book extends Shouhin{
 	private String author;
 
-	public Book() {
-		System.out.println("Book()");
-	}
+//	public Book() {
+//		System.out.println("Book()");
+//	}
 
 	public Book(int sid, String sname, int tanka,String author) {
 		super(sid,sname,tanka);
