@@ -2,10 +2,7 @@ class Book extends Shouhin{
 	private String author;
 
 	public Book() {
-		int sid = this.getSid();
-		String sname = this.getSname();
-		int tanka = this.getTanka();
-		super(sid,sname,tanka);
+		super(0,"",0);
 		System.out.println("Book()");
 	}
 
