@@ -6,10 +6,8 @@ class Book extends Shouhin{
 	}
 
 	public Book(int sid, String sname, int tanka,String author) {
+		super(sid,sname,tanka);
 		System.out.println("Book(int sid, String sname, int tanka,String author)");
-		setSid(sid);
-		setSname(sname);
-		setTanka(tanka);
 		this.author = author;
 	}
 
