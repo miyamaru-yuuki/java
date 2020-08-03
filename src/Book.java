@@ -16,9 +16,7 @@ class Book extends Shouhin{
 		this.author = author;
 	}
 	void show(){
-		System.out.println(this.getSid());
-		System.out.println(this.getSname());
-		System.out.println(this.getTanka());
+		super.show();
 		System.out.println(author);
 	}
 }
