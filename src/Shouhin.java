@@ -40,6 +40,7 @@ public class Shouhin {
 	}
 
 	void show(){
+		System.out.println("showShouhin");
 		System.out.println(sid);
 		System.out.println(sname);
 		System.out.println(tanka);
