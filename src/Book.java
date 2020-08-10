@@ -20,4 +20,7 @@ class Book extends Shouhin{
 		super.show();
 		System.out.println(author);
 	}
+	void showAuthor(){
+		System.out.println(this.author);
+	}
 }
