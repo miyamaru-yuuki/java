@@ -3,11 +3,11 @@ import java.util.ArrayList;
 public class KuKuMain {
 	public static void main(String[] args) {
 		int correctCount = 0;
-		ArrayList<KuKuMondai> list = new ArrayList<KuKuMondai>();
+		ArrayList<TasiMondai> list = new ArrayList<TasiMondai>();
 		for (int count = 1; count <= 5; count++){
-			list.add(new KuKuMondai());
+			list.add(new TasiMondai());
 		}
-		for(KuKuMondai m : list){
+		for(TasiMondai m : list){
 			m.show();
 			String kotaestr = new java.util.Scanner(System.in).nextLine();
 			int kotae = Integer.parseInt(kotaestr);

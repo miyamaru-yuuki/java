@@ -1,4 +1,3 @@
-
 public class KuKuMondai {
 	private int num1;
 	private int num2;
