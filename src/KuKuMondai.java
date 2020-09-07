@@ -12,8 +12,16 @@ public class KuKuMondai {
 		System.out.println(num1 +"✖️"+ num2);
 	}
 
+	void show(int num1,int num2){
+		System.out.println(num1 +"+️"+ num2);
+	}
+
 	int getKotae() {
 		return num1*num2;
+	}
+
+	int getKotae(int num1,int num2) {
+		return num1+num2;
 	}
 
 	boolean check(int kotae) {
