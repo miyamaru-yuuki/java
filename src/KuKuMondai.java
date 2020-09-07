@@ -12,6 +12,14 @@ public class KuKuMondai {
 		System.out.println(num1 +"✖️️"+ num2);
 	}
 
+	int getNum1() {
+		return num1;
+	}
+
+	int getNum2() {
+		return num2;
+	}
+
 	int getKotae() {
 		return num1*num2;
 	}
