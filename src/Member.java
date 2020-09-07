@@ -1,12 +1,14 @@
-
+import java.util.ArrayList;
 public class Member {
 
 	private String name;
 	private int age;
+	private ArrayList<Member> list;
 
 	public Member(String name,int age) {
 		this.name = name;
 		this.age = age;
+		this.list = new ArrayList<Member>();
 	}
 
 	public String getName() {
@@ -25,7 +27,17 @@ public class Member {
 		this.age = age;
 	}
 
-	void show(){
-		System.out.println(this.name+" "+this.age+ "歳");
+	void add(Member m) {
+		this.list.add(m);
 	}
+
+	void show(){
+		for(Member m : list){
+			System.out.println(this.getPosition());
+		}
+	}
+
+//	void show(){
+//		System.out.println(this.name+" "+this.age+ "歳");
+//	}
 }

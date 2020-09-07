@@ -10,5 +10,4 @@ class TasiMondai extends KuKuMondai{
 	int getKotae() {
 		return super.getNum1()+super.getNum2();
 	}
-
 }

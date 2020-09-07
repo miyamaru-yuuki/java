@@ -1,4 +1,3 @@
-
 class Stuff extends Member{
 
 	private String position;
