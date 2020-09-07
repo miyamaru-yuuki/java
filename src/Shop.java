@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Shop {
-	private ArrayList<Shouhin> list;
 	public Shop() {
 		super();
 		this.list = new ArrayList<Shouhin>();
