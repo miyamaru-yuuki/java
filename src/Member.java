@@ -26,6 +26,6 @@ public class Member {
 	}
 
 	void show(){
-		System.out.println(this.name+' '+this.age);
+		System.out.println(this.name+" "+this.age+ "歳");
 	}
 }
