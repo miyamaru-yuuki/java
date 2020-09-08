@@ -37,7 +37,7 @@ public class Member {
 //		}
 //	}
 
-//	void show(){
-//		System.out.println(this.name+" "+this.age+ "歳");
-//	}
+	void show(){
+		System.out.println(this.name+" "+this.age+ "歳");
+	}
 }
