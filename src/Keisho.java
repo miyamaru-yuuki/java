@@ -14,7 +14,8 @@ public class Keisho {
 		list.add(s2);
 
 		for(Member m : list){
-			System.out.println(m.getName());
+			m.show();
 		}
+
 	}
 }

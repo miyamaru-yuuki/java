@@ -31,13 +31,7 @@ public class Member {
 		this.list.add(m);
 	}
 
-//	void show(){
-//		for(Member m : list){
-//			System.out.println(m.);
-//		}
-//	}
-
-//	void show(){
-//		System.out.println(this.name+" "+this.age+ "歳");
-//	}
+	void show(){
+		System.out.println(this.name+" "+this.age+ "歳");
+	}
 }
