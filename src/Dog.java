@@ -1,5 +1,5 @@
 
-class Dog extends Animal{
+public class Dog extends Animal{
 	private String name;
 
 	public Dog(String name) {
