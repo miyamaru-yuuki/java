@@ -6,7 +6,7 @@ public class Cat extends Animal{
 		this.name = name;
 	}
 
-	void naku() {
+	public void naku() {
 		System.out.println(this.name + "がニャーと鳴いた");
 	}
 
