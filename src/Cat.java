@@ -1,13 +1,12 @@
 
 public class Cat extends Animal{
-	private String name;
 
 	public Cat(String name) {
-		this.name = name;
+		super(name);
 	}
 
 	public void naku() {
-		System.out.println(this.name + "がニャーと鳴いた");
+		System.out.println(super.getName() + "がニャーと鳴いた");
 	}
 
 }
