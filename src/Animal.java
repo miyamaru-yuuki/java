@@ -16,7 +16,7 @@ public class Animal {
 	}
 
 	public void naku() {
-
+		System.out.println(this.name + "がチュンと鳴いた");
 	}
 
 }
