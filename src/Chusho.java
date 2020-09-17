@@ -11,5 +11,6 @@ public class Chusho {
 		for(Animal a : list){
 			a.naku();
 		}
+		Animal a = new Animal("りんご");
 	}
 }
