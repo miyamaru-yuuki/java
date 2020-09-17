@@ -15,8 +15,6 @@ public abstract class Animal {
 		this.name = name;
 	}
 
-	public void naku() {
-		System.out.println(this.name + "がチュンと鳴いた");
-	}
+	public abstract void naku();
 
 }
