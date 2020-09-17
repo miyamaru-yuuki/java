@@ -1,15 +1,12 @@
-public class KuKuMondai extends Mondai{
+
+public abstract class Mondai {
+
 	private int num1;
 	private int num2;
 
-	public KuKuMondai() {
-		super();
+	public Mondai() {
 		this.num1 = new java.util.Random().nextInt(9) + 1;
 		this.num2 = new java.util.Random().nextInt(9) + 1;
-	}
-
-	void show(){
-		System.out.println(num1 +"✖️️"+ num2);
 	}
 
 	int getNum1() {
@@ -31,4 +28,7 @@ public class KuKuMondai extends Mondai{
 			return false;
 		}
 	}
+
+	public abstract void show();
+
 }

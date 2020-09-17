@@ -1,9 +1,9 @@
-class TasiMondai extends KuKuMondai{
+class TasiMondai extends Mondai{
 
 	public TasiMondai() {
 	}
 
-	void show(){
+	public void show(){
 		System.out.println(super.getNum1() +"+️️"+ super.getNum2());
 	}
 
