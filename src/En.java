@@ -1,5 +1,5 @@
 
-public class En {
+public class En extends Shape{
 
 	private int hankei;
 
