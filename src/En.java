@@ -1,5 +1,5 @@
 
-public class En extends Shape{
+public class En {
 
 	private int hankei;
 
@@ -7,7 +7,7 @@ public class En extends Shape{
 		this.hankei = hankei;
 	}
 
-	public double getMenseki() {
+	public int getMenseki() {
 		return hankei * hankei * 3.14;
 	}
 

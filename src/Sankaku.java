@@ -1,5 +1,5 @@
 
-public class Sankaku extends Shape{
+public class Sankaku {
 
 	private int teihen;
 	private int takasa;
