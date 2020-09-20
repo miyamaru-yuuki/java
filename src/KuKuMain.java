@@ -5,7 +5,7 @@ public class KuKuMain {
 		int correctCount = 0;
 		ArrayList<Mondai> list = new ArrayList<Mondai>();
 		for (int count = 1; count <= 5; count++){
-			list.add(new TasiMondai());
+			list.add(new KuKuMondai());
 		}
 		for(Mondai m : list){
 			m.show();
