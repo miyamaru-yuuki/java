@@ -8,7 +8,7 @@ public class En {
 	}
 
 	public int getMenseki() {
-		return hankei * hankei * 3.14;
+		return (int)(hankei * hankei * 3.14);
 	}
 
 }
