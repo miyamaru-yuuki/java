@@ -1,12 +1,17 @@
+import java.util.ArrayList;
 
 public class Chusho2 {
 	public static void main(String[] args) {
 
-	Sankaku s = new Sankaku(10,5);
-	En e = new En(10);
+	ArrayList<Shape> list = new ArrayList<Shape>();
+	list.add(new Sankaku(10,5));
+	list.add(new Sankaku(20,5));
+	list.add(new En(10));
+	list.add(new En(100));
 
-	System.out.println(s.getMenseki());
-	System.out.println(e.getMenseki());
+	for(Shape s : list){
+		System.out.println(s.getMenseki());
+	}
 
 	}
 }

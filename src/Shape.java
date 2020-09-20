@@ -1,6 +1,6 @@
 
 public abstract class Shape {
 
-	public abstract void getMenseki();
+	public abstract int getMenseki();
 
 }
