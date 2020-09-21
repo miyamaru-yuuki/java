@@ -1,6 +1,6 @@
 
-public abstract class Shape {
+interface Shape {
 
-	public abstract int getMenseki();
+	int getMenseki();
 
 }
