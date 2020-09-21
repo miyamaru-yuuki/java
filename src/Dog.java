@@ -1,5 +1,5 @@
 
-public class Dog extends Animal implements Runner,Robot{
+public class Dog extends Animal implements Runner{
 
 	public Dog(String name) {
 		super(name);
