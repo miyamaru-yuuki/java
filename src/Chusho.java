@@ -20,5 +20,9 @@ public class Chusho {
 		for(Runner r : list2){
 			r.run();
 		}
+
+		Dog d = new Dog("ポチ");
+		String dstr = d.toString();
+		System.out.println(dstr);
 	}
 }
