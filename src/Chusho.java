@@ -15,7 +15,7 @@ public class Chusho {
 		ArrayList<Runner> list2 = new ArrayList<Runner>();
 		list2.add(new Dog("クロ"));
 		list2.add(new Cat("タマ"));
-		list2.add(new Robot("ロボ"));
+		list2.add(new Robot());
 
 		for(Runner r : list2){
 			r.run();
