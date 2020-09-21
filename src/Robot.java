@@ -1,0 +1,4 @@
+
+interface Robot {
+	void walk();
+}

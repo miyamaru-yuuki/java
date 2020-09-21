@@ -1,5 +1,5 @@
 
-public class Cat extends Animal implements Runner{
+public class Cat extends Animal implements Runner,Robot{
 
 	public Cat(String name) {
 		super(name);
@@ -11,5 +11,9 @@ public class Cat extends Animal implements Runner{
 
 	public void run() {
 		System.out.println(super.getName() + "が走った");
+	}
+
+	public void walk() {
+		System.out.println(super.getName() + "が歩いた");
 	}
 }

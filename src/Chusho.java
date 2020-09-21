@@ -12,12 +12,12 @@ public class Chusho {
 			a.naku();
 		}
 
-		ArrayList<Runner> list2 = new ArrayList<Runner>();
+		ArrayList<Robot> list2 = new ArrayList<Robot>();
 		list2.add(new Dog("クロ"));
 		list2.add(new Cat("タマ"));
 
-		for(Runner r : list2){
-			r.run();
+		for(Robot r : list2){
+			r.walk();
 		}
 	}
 }
