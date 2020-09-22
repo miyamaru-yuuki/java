@@ -26,5 +26,18 @@ public class Chusho {
 		System.out.println(dstr);
 
 		System.out.println(d.toString());
+
+		Dog d1 = new Dog("シロ");
+		Dog d2 = d1;
+
+		d1.setName("クロ");
+
+		System.out.println(d2);
+
+		if( d1 == d2 ){
+		    System.out.println("同じ");
+		}else{
+		    System.out.println("違う");
+		}
 	}
 }
