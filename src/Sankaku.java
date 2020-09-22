@@ -13,7 +13,7 @@ public class Sankaku implements Shape{
 		return teihen * takasa / 2;
 	}
 
-	public String toString() {
+	public String toString2() {
 		return "底辺:" + teihen + "高さ:" + takasa;
 	}
 }
