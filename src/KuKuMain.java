@@ -8,7 +8,7 @@ public class KuKuMain {
 			list.add(new KuKuMondai());
 		}
 		for(Mondai m : list){
-			m.show();
+			System.out.println(m);
 			String kotaestr = new java.util.Scanner(System.in).nextLine();
 			int kotae = Integer.parseInt(kotaestr);
 			if(m.check(kotae)) {

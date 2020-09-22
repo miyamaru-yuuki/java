@@ -29,6 +29,4 @@ public abstract class Mondai {
 		}
 	}
 
-	public abstract void show();
-
 }
