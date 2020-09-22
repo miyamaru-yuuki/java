@@ -24,5 +24,7 @@ public class Chusho {
 		Dog d = new Dog("ポチ");
 		String dstr = d.toString();
 		System.out.println(dstr);
+
+		System.out.println(d.toString());
 	}
 }

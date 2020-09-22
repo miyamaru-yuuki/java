@@ -16,4 +16,8 @@ public class Dog extends Animal implements Runner{
 	public void walk() {
 		System.out.println(super.getName() + "が歩いた");
 	}
+
+	public String toString() {
+		return super.getName();
+	}
 }
