@@ -13,5 +13,7 @@ public class Chusho2 {
 		System.out.println(s.getMenseki());
 	}
 
+	Sankaku s = new Sankaku(30,5);
+	System.out.println(s.toString());
 	}
 }

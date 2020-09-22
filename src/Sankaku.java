@@ -12,4 +12,8 @@ public class Sankaku implements Shape{
 	public int getMenseki() {
 		return teihen * takasa / 2;
 	}
+
+	public String toString() {
+		return "底辺:" + teihen + "高さ:" + takasa;
+	}
 }
