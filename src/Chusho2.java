@@ -15,5 +15,20 @@ public class Chusho2 {
 
 	Sankaku s = new Sankaku(30,5);
 	System.out.println(s);
+
+	Sankaku s1 = new Sankaku(5,10);
+	Sankaku s2 = new Sankaku(5,10);
+
+	if( s1 == s2 ){
+	    System.out.println("同じ");
+	}else{
+	    System.out.println("違う");
+	}
+
+	if( s1.equals(s2) ){
+	    System.out.println("同じ");
+	}else{
+	    System.out.println("違う");
+	}
 	}
 }

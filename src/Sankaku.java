@@ -16,4 +16,14 @@ public class Sankaku implements Shape{
 	public String toString() {
 		return "底辺:" + teihen + "高さ:" + takasa;
 	}
+
+	public boolean equals(Object obj) {
+	    Sankaku other = (Sankaku)obj;
+
+	    if( this.teihen == other.teihen && this.takasa == other.takasa ){
+	        return true;
+	    }else{
+	        return false;
+	    }
+	}
 }
