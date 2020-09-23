@@ -5,7 +5,7 @@ public class Login {
 		System.out.println("パスワードを入力してください:");
 		String pass = new java.util.Scanner(System.in).nextLine();
 
-		if(pass.equals("abc")) {
+		if(pass == "abc") {
 			System.out.println("ログインしました");
 		}else{
 			System.out.println("パスワードが違います");
