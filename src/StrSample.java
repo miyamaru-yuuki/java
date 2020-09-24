@@ -1,4 +1,4 @@
-
+import java.util.Date;
 public class StrSample {
 
 	public static void main(String[] args) {
@@ -6,5 +6,8 @@ public class StrSample {
 		String[] shouhinAry = str.split(",");
 		int tankaDouble = Integer.parseInt(shouhinAry[2]) * 2;
 		System.out.println(tankaDouble);
+
+		Date d = new Date();
+		System.out.println(d);
 	}
 }
