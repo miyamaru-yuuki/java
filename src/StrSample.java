@@ -1,3 +1,4 @@
+import java.text.SimpleDateFormat;
 import java.util.Date;
 public class StrSample {
 
@@ -8,6 +9,7 @@ public class StrSample {
 		System.out.println(tankaDouble);
 
 		Date d = new Date();
-		System.out.println(d);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+		System.out.println(sdf.format(d) );
 	}
 }
