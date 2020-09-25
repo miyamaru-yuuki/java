@@ -9,8 +9,7 @@ public class StrSample {
 		System.out.println(tankaDouble);
 
 		Date d = new Date();
-		SimpleDateFormat sdf1 = new SimpleDateFormat("h");
-		SimpleDateFormat sdf2 = new SimpleDateFormat("m");
-		System.out.println(sdf1.format(d) + "時"  + sdf2.format(d) + "分");
+		SimpleDateFormat sdf = new SimpleDateFormat("h時m分");
+		System.out.println(sdf.format(d));
 	}
 }
