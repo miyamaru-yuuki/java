@@ -13,8 +13,8 @@ public class StrSample {
 //		System.out.println(sdf.format(d));
 		Calendar c = Calendar.getInstance();
 		c.setTime(d);
-		int year = c.get(Calendar.YEAR);
-		year = year + 1;
-		System.out.println(year);
+		int month = c.get(Calendar.MONTH);
+		month = month + 1;
+		System.out.println(month);
 	}
 }
