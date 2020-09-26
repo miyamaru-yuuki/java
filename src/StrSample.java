@@ -1,4 +1,4 @@
-import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 public class StrSample {
 
@@ -9,7 +9,12 @@ public class StrSample {
 		System.out.println(tankaDouble);
 
 		Date d = new Date();
-		SimpleDateFormat sdf = new SimpleDateFormat("h時m分");
-		System.out.println(sdf.format(d));
+//		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+//		System.out.println(sdf.format(d));
+		Calendar c = Calendar.getInstance();
+		c.setTime(d);
+		int year = c.get(Calendar.YEAR);
+		year = year + 1;
+		System.out.println(year);
 	}
 }
