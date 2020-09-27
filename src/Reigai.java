@@ -1,5 +1,9 @@
 public class Reigai {
 	public static void main(String[] args) {
+		func();
+	}
+
+	public static void func() {
 		try{
 		    // 通常処理
 			String num = new java.util.Scanner(System.in).nextLine();
@@ -8,5 +12,5 @@ public class Reigai {
 		    // エラー処理（エラーメッセージ名を出すなど）
 			System.out.println("０で除算しました");
 		}
-	}
+		}
 }
