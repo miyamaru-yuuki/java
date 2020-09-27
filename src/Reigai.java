@@ -5,6 +5,8 @@ public class Reigai {
 		}catch(ArithmeticException e){
 		    // エラー処理（エラーメッセージ名を出すなど）
 			System.out.println("０で除算しました");
+		}catch(NumberFormatException e){
+			System.out.println("数値を入力してください");
 		}
 	}
 	public static void func() {
