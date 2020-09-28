@@ -11,6 +11,15 @@ public class Reigai {
 //		}catch(NumberFormatException e){
 //			System.out.println("数値を入力してください");
 //		}
+		func2();
+	}
+
+	public static void func() {
+//		String num = new java.util.Scanner(System.in).nextLine();
+//		int ans = 10 / Integer.parseInt(num);
+	}
+
+	public static void func2() {
 		try {
 			FileWriter fw = new FileWriter("test.txt");
 			fw.write("abc");
@@ -18,10 +27,5 @@ public class Reigai {
 		}catch(IOException e){
 			System.out.println("エラーです");
 		}
-	}
-	public static void func() {
-		// 通常処理
-//		String num = new java.util.Scanner(System.in).nextLine();
-//		int ans = 10 / Integer.parseInt(num);
 	}
 }
