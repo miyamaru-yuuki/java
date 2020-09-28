@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Reigai {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException{
 //		try {
 //			func();
 //		}catch(ArithmeticException e){
@@ -11,11 +11,7 @@ public class Reigai {
 //		}catch(NumberFormatException e){
 //			System.out.println("数値を入力してください");
 //		}
-		try {
-			func2();
-		}catch(IOException e){
-			System.out.println("エラーです");
-		}
+		func2();
 	}
 
 	public static void func() {
