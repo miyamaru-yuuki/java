@@ -11,7 +11,11 @@ public class Reigai {
 //		}catch(NumberFormatException e){
 //			System.out.println("数値を入力してください");
 //		}
-		func2();
+		try {
+			func2();
+		}catch(IOException e){
+			System.out.println("エラーです");
+		}
 	}
 
 	public static void func() {
@@ -20,12 +24,8 @@ public class Reigai {
 	}
 
 	public static void func2() {
-		try {
-			FileWriter fw = new FileWriter("test.txt");
-			fw.write("abc");
-			fw.close();
-		}catch(IOException e){
-			System.out.println("エラーです");
-		}
+		FileWriter fw = new FileWriter("test.txt");
+		fw.write("abc");
+		fw.close();
 	}
 }
