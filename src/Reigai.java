@@ -23,7 +23,7 @@ public class Reigai {
 //		int ans = 10 / Integer.parseInt(num);
 	}
 
-	public static void func2() {
+	public static void func2() throws IOException {
 		FileWriter fw = new FileWriter("test.txt");
 		fw.write("abc");
 		fw.close();
