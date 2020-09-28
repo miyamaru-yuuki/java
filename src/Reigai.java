@@ -8,10 +8,10 @@ public class Reigai {
 		}catch(ArithmeticException e){
 		    // エラー処理（エラーメッセージ名を出すなど）
 			System.out.println("０で除算しました");
-			func();
+			main(args);
 		}catch(NumberFormatException e){
 			System.out.println("数値を入力してください");
-			func();
+			main(args);
 		}
 		func2();
 	}
