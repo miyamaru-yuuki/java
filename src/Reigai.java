@@ -12,7 +12,9 @@ public class Reigai {
 //			System.out.println("数値を入力してください");
 //		}
 		try {
-			func();
+			FileWriter fw = new FileWriter("test.txt");
+			fw.write("abc");
+			fw.close();
 		}catch(IOException e){
 			System.out.println("エラーです");
 		}
@@ -21,8 +23,5 @@ public class Reigai {
 		// 通常処理
 //		String num = new java.util.Scanner(System.in).nextLine();
 //		int ans = 10 / Integer.parseInt(num);
-		FileWriter fw = new FileWriter("test.txt");
-		fw.write("abc");
-		fw.close();
 	}
 }
