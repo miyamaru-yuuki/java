@@ -14,11 +14,9 @@ public class Reigai {
 				double ans = 10 / Integer.parseInt(num);
 				System.out.println(ans);
 				break;
-			}catch(ArithmeticException e){
+			}catch(Exception e){
 			    // エラー処理（エラーメッセージ名を出すなど）
 				System.out.println("０で除算しました");
-				System.out.println(e.getMessage());
-			}catch(NumberFormatException e){
 				System.out.println("数値を入力してください");
 				System.out.println(e.getMessage());
 			}
