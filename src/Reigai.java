@@ -8,20 +8,22 @@ public class Reigai {
 	}
 
 	public static void func() {
-		int intnum = 0;
+		boolean flg = false;
 		do{
 			try {
 				String num = new java.util.Scanner(System.in).nextLine();
-				intnum = Integer.parseInt(num);
-				double ans = 10 / intnum;
+				double ans = 10 / Integer.parseInt(num);
 				System.out.println(ans);
+				flg = false;
 			}catch(ArithmeticException e){
 			    // エラー処理（エラーメッセージ名を出すなど）
 				System.out.println("０で除算しました");
+				flg = true;
 			}catch(NumberFormatException e){
 				System.out.println("数値を入力してください");
+				flg = true;
 			}
-			}while(intnum == 0);
+			}while(flg == true);
 	}
 
 	public static void func2() throws IOException {
