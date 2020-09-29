@@ -5,7 +5,7 @@ public class Reigai {
 	public static void main(String[] args) throws IOException{
 //		func();
 //		func2();
-		func3(20);
+		func3(151);
 	}
 
 	public static void func() {
@@ -32,6 +32,9 @@ public class Reigai {
 	}
 
 	public static void func3(int num) {
+		if(num < 0 || num >= 150) {
+			throw new IllegalArgumentException("正しい年齢を入力してください");
+		}
 		System.out.println("あなたの年齢は" +num+ "歳です");
 	}
 }
