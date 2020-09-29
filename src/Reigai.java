@@ -5,7 +5,11 @@ public class Reigai {
 	public static void main(String[] args) throws IOException{
 //		func();
 //		func2();
-		func3(151);
+		try {
+			func3(150);
+		}catch(IllegalArgumentException e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 	public static void func() {
@@ -31,7 +35,7 @@ public class Reigai {
 		fw.close();
 	}
 
-	public static void func3(int num) {
+	public static void func3(int num) throws IllegalArgumentException{
 		if(num < 0 || num >= 150) {
 			throw new IllegalArgumentException("正しい年齢を入力してください");
 		}
