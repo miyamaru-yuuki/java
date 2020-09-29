@@ -8,7 +8,7 @@ public class Reigai {
 	}
 
 	public static void func() {
-		int ans = 0;
+		double ans = 0;
 		do{
 			try {
 				String num = new java.util.Scanner(System.in).nextLine();
