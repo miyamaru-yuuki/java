@@ -6,7 +6,6 @@ public class Reigai {
 		func();
 		func2();
 	}
-
 	public static void func() {
 		double ans = 0;
 		do{
@@ -22,7 +21,6 @@ public class Reigai {
 			}
 			}while(ans == 0);
 	}
-
 	public static void func2() throws IOException {
 		FileWriter fw = new FileWriter("test.txt");
 		fw.write("abc");
