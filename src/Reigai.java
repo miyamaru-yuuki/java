@@ -17,8 +17,10 @@ public class Reigai {
 			}catch(ArithmeticException e){
 			    // エラー処理（エラーメッセージ名を出すなど）
 				System.out.println("０で除算しました");
+				System.out.println(e.getMessage());
 			}catch(NumberFormatException e){
 				System.out.println("数値を入力してください");
+				System.out.println(e.getMessage());
 			}
 		}
 	}
