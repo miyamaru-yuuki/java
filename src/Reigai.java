@@ -9,7 +9,7 @@ public class Reigai {
 
 	public static void func() {
 		boolean flg = false;
-		do{
+		while(flg == false){
 			try {
 				String num = new java.util.Scanner(System.in).nextLine();
 				double ans = 10 / Integer.parseInt(num);
@@ -21,7 +21,7 @@ public class Reigai {
 			}catch(NumberFormatException e){
 				System.out.println("数値を入力してください");
 			}
-			}while(flg == false);
+		}
 	}
 
 	public static void func2() throws IOException {
