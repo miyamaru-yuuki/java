@@ -8,13 +8,12 @@ public class Reigai {
 	}
 
 	public static void func() {
-		boolean flg = false;
-		while(flg == false){
+		while(true){
 			try {
 				String num = new java.util.Scanner(System.in).nextLine();
 				double ans = 10 / Integer.parseInt(num);
 				System.out.println(ans);
-				flg = true;
+				break;
 			}catch(ArithmeticException e){
 			    // エラー処理（エラーメッセージ名を出すなど）
 				System.out.println("０で除算しました");
