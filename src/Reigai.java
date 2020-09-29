@@ -3,8 +3,9 @@ import java.io.IOException;
 
 public class Reigai {
 	public static void main(String[] args) throws IOException{
-		func();
-		func2();
+//		func();
+//		func2();
+		func3(20);
 	}
 
 	public static void func() {
@@ -28,5 +29,9 @@ public class Reigai {
 		FileWriter fw = new FileWriter("test.txt");
 		fw.write("abc");
 		fw.close();
+	}
+
+	public static void func3(int num) {
+		System.out.println("あなたの年齢は" +num+ "歳です");
 	}
 }
