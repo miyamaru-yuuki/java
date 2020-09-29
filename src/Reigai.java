@@ -3,23 +3,23 @@ import java.io.IOException;
 
 public class Reigai {
 	public static void main(String[] args) throws IOException{
-		try {
-			func();
-		}catch(ArithmeticException e){
-		    // エラー処理（エラーメッセージ名を出すなど）
-			System.out.println("０で除算しました");
-		}catch(NumberFormatException e){
-			System.out.println("数値を入力してください");
-		}
+		func();
 		func2();
 	}
 
 	public static void func() {
-		int ans;
+		int ans = 0;
 		do{
-			String num = new java.util.Scanner(System.in).nextLine();
-			ans = 10 / Integer.parseInt(num);
-			System.out.println(ans);
+			try {
+				String num = new java.util.Scanner(System.in).nextLine();
+				ans = 10 / Integer.parseInt(num);
+				System.out.println(ans);
+			}catch(ArithmeticException e){
+			    // エラー処理（エラーメッセージ名を出すなど）
+				System.out.println("０で除算しました");
+			}catch(NumberFormatException e){
+				System.out.println("数値を入力してください");
+			}
 			}while(ans == 0);
 	}
 
