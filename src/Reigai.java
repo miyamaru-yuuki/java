@@ -1,15 +1,16 @@
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class Reigai {
 	public static void main(String[] args) throws IOException{
 //		func();
-//		func2();
-		try {
-			func3(150);
-		}catch(AgeException e) {
-			System.out.println(e.getMessage());
-		}
+		func2();
+//		try {
+//			func3(150);
+//		}catch(AgeException e) {
+//			System.out.println(e.getMessage());
+//		}
 	}
 
 	public static void func() {
@@ -31,8 +32,9 @@ public class Reigai {
 
 	public static void func2() throws IOException {
 		FileWriter fw = new FileWriter("test.txt");
-		fw.write("abc");
-		fw.close();
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.write("abc");
+		bw.close();
 	}
 
 	public static void func3(int num){
