@@ -1,4 +1,4 @@
 
-public class AgeException extends RuntimeException{
+public class AgeException extends Exception{
 
 }
