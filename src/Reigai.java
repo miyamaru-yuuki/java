@@ -35,7 +35,7 @@ public class Reigai {
 		fw.close();
 	}
 
-	public static void func3(int num) throws AgeException{
+	public static void func3(int num){
 		if(num < 0 || num >= 150) {
 			throw new IllegalArgumentException("正しい年齢を入力してください");
 		}
