@@ -30,11 +30,16 @@ public class Reigai {
 		}
 	}
 
-	public static void func2() throws IOException {
-		FileWriter fw = new FileWriter("test.txt");
-		BufferedWriter bw = new BufferedWriter(fw);
-		bw.write("abc");
-		bw.close();
+	public static void func2(){
+		try {
+			FileWriter fw = new FileWriter("test.txt");
+			BufferedWriter bw = new BufferedWriter(fw);
+			bw.write("abc");
+			bw.close();
+		}catch(IOException e) {
+			System.out.println(e.getMessage());
+		}
+
 	}
 
 	public static void func3(int num){
