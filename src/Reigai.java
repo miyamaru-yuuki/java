@@ -1,6 +1,7 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Reigai {
 	public static void main(String[] args) throws IOException{
@@ -34,10 +35,11 @@ public class Reigai {
 		try {
 			FileWriter fw = new FileWriter("test.txt");
 			BufferedWriter bw = new BufferedWriter(fw);
-			bw.write("abc");
-			bw.write("def");
-			bw.write("ghi");
-			bw.close();
+			PrintWriter pw = new PrintWriter(bw);
+			pw.println("abc");
+			pw.println("def");
+			pw.println("ghi");
+			pw.close();
 		}catch(IOException e) {
 			System.out.println(e.getMessage());
 		}
