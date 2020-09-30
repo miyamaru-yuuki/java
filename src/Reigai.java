@@ -35,6 +35,8 @@ public class Reigai {
 			FileWriter fw = new FileWriter("test.txt");
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write("abc");
+			bw.write("def");
+			bw.write("ghi");
 			bw.close();
 		}catch(IOException e) {
 			System.out.println(e.getMessage());
