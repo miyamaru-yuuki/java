@@ -33,9 +33,7 @@ public class Reigai {
 
 	public static void func2(){
 		try {
-			FileWriter fw = new FileWriter("test.txt");
-			BufferedWriter bw = new BufferedWriter(fw);
-			PrintWriter pw = new PrintWriter(bw);
+			PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("test.txt")));
 			pw.println("abc");
 			pw.println("def");
 			pw.println("ghi");
