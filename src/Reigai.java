@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 public class Reigai {
 	public static void main(String[] args) throws IOException{
 //		func();
+//		func2();
 		func4();
 //		try {
 //			func3(150);
