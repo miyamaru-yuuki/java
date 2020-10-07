@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -6,7 +8,7 @@ import java.io.PrintWriter;
 public class Reigai {
 	public static void main(String[] args) throws IOException{
 //		func();
-		func2();
+		func4();
 //		try {
 //			func3(150);
 //		}catch(AgeException e) {
@@ -49,5 +51,18 @@ public class Reigai {
 			throw new IllegalArgumentException("正しい年齢を入力してください");
 		}
 		System.out.println("あなたの年齢は" +num+ "歳です");
+	}
+
+	public static void func4(){
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("test.txt"));
+			String line;
+			line = br.readLine();
+			br.close();
+			System.out.println(line);
+		}catch(IOException e) {
+			System.out.println(e.getMessage());
+		}
+
 	}
 }
