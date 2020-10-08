@@ -10,7 +10,7 @@ public class Reigai {
 //		func();
 //		func2();
 		func4();
-//		try {
+//		try {aa
 //			func3(150);
 //		}catch(AgeException e) {
 //			System.out.println(e.getMessage());
