@@ -9,7 +9,7 @@ public class Reigai {
 	public static void main(String[] args) throws IOException{
 //		func();
 //		func2();
-		func6();
+		func7();
 //		try {
 //			func3(150);
 //		}catch(AgeException e) {
