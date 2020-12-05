@@ -1,6 +1,6 @@
 
 public class Shouhin {
-	private int sid;
+//	private int sid;
 	private String sname;
 	private int tanka;
 
@@ -8,20 +8,20 @@ public class Shouhin {
 //		System.out.println("Shouhin()");
 //	}
 
-	public Shouhin(int sid, String sname, int tanka) {
-		System.out.println("Shouhin(int sid, String sname, int tanka)");
-		this.sid = sid;
+	public Shouhin(String sname, int tanka) {
+//		System.out.println("Shouhin(int sid, String sname, int tanka)");
+//		this.sid = sid;
 		this.sname = sname;
 		this.tanka = tanka;
 	}
 
-	public int getSid() {
-		return sid;
-	}
-
-	public void setSid(int sid) {
-		this.sid = sid;
-	}
+//	public int getSid() {
+//		return sid;
+//	}
+//
+//	public void setSid(int sid) {
+//		this.sid = sid;
+//	}
 
 	public String getSname() {
 		return sname;
@@ -40,8 +40,6 @@ public class Shouhin {
 	}
 
 	void show(){
-		System.out.println("showShouhin");
-		System.out.println(sid);
 		System.out.println(sname);
 		System.out.println(tanka);
 	}

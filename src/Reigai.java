@@ -4,17 +4,21 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 
 public class Reigai {
 	public static void main(String[] args) throws IOException{
-//		func();
-//		func2();
-		func7();
-//		try {
-//			func3(150);
-//		}catch(AgeException e) {
-//			System.out.println(e.getMessage());
-//		}
+		ShouhinFile sf = new ShouhinFile("test.txt");
+		Shouhin s = new Shouhin("テスト",1000);
+		sf.load();
+		sf.add(s);
+		sf.save();
+		int size = sf.size();
+		for (int count = 0; count < size; count++){
+			Shouhin shouhin = sf.get(count);
+			System.out.println(shouhin.getSname());
+			System.out.println(shouhin.getTanka());
+		}
 	}
 
 	public static void func() {
@@ -54,16 +58,19 @@ public class Reigai {
 		System.out.println("あなたの年齢は" +num+ "歳です");
 	}
 
-	public static void func4(){
+	public static ArrayList<Shouhin> func4(){
+		ArrayList<Shouhin> list = new ArrayList<Shouhin>();
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("test.txt"));
 			String line;
-			line = br.readLine();
+			while((line = br.readLine()) != null){
+				String[] shouhins = line.split(",");
+				list.add(new Shouhin(shouhins[0],Integer.parseInt(shouhins[1])));
+			}
 			br.close();
-			System.out.println(line);
 		}catch(IOException e) {
 			System.out.println(e.getMessage());
 		}
-
+		return list;
 	}
 }

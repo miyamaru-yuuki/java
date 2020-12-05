@@ -1,3 +1,5 @@
-abc
-def
-ghi
+ringo,100
+mikan,200
+ichigo,120
+テスト,1000
+テスト,1000
