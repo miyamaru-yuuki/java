@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Reigai {
 	public static void main(String[] args) throws IOException{
 		ShouhinFile sf = new ShouhinFile("test.txt");
-		Shouhin s = new Shouhin("テスト",1000);
+		Shouhin s = new Shouhin("テスト",10000);
 		sf.load();
 		sf.add(s);
 		sf.save();
